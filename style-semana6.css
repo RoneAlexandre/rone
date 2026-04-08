@@ -1,0 +1,343 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cuprum:ital,wght@0,400..700;1,400..700&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+body {
+  background-color: rgba(205, 113, 37, 0.74);
+  color: var(--text-color);
+  font-family: 'Cuprum', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;   
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+
+:root {
+  --semana2-primary: #014040;   /* azul petróleo escuro */
+  --semana2-secondary: #02735E; /* teal profundo */
+  --semana2-accent: #03A678;    /* teal claro */
+  --semana2-tertiary: #F27405;  /* laranja vibrante */
+  --semana2-quaternary: #731702;/* marrom avermelhado */
+  --bg-light: #FAFAFA;
+  --text-color: #333;
+  --border-color: #E0E0E0;
+} 
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 0;
+  background-image: url('./img/niko.jpeg');
+  background-size: cover;   
+  background-position: center;
+  position: relative;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+.titulo {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Bebas Neue', cursive;
+  color: rgb(134, 62, 0);
+  margin: 0;
+  letter-spacing: 0.1em;
+  text-shadow: none;
+}
+
+.titulo h1 {
+  font-size: 5rem;
+}
+
+.eted {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Bebas Neue', cursive;
+  color: #000;
+  margin: 0;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #000;
+}
+
+.eted span {
+  color: var(--semana2-secondary);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  font-size: 100px;
+}
+
+/* Cards */
+.card {
+  background-color: var(--bg-light);
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #38184C;
+}
+
+.card h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  color: #735949;
+  margin-bottom: 0.5rem;
+}
+
+.card h5 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Spline Sans Mono', monospace;
+  color: #A67D65;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.card em {
+  font-style: italic;
+  color: #730A4E;
+}
+
+.semana-card.semana-3{
+  background:linear-gradient(135deg, rgba(166,206,57,0.1), rgba(107,76,154,0.1));
+  border:2px solid var(--green);
+  box-shadow:0 8px 24px rgba(166,206,57,0.3);
+}
+
+.semana-card.semana-3:hover{
+  border-color:var(--purple);
+  box-shadow:0 12px 32px rgba(107,76,154,0.4);
+  transform:translateY(-4px);
+}
+/* Sumário */
+.sumario {
+  padding: 2rem 0;
+}
+
+.sumario h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #000;
+}
+
+.sumario-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 1rem 0.5rem;
+}
+
+.sumario-table td {
+  background-color: var(--bg-light);
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 400;
+  color: black;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.sumario-table td a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.sumario-table td a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Seções */
+section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'Bebas Neue', cursive;
+  color: #A67D65;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+#sumario h2,
+#aula h2,
+#carater h2,
+#missoes h2,
+#relacionamentos h2,
+#meditacao h2,
+#autoavaliacao h2 {
+  color: #000;
+  font-family: 'Bebas Neue', cursive;
+}
+
+/* Frases */
+.frases {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #592202;
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: white;
+  border-left: 3px solid #8C5E35;
+  border-radius: 0 8px 8px 0;
+}
+
+.sub {
+  font-size: 30px;
+  color: #8C5E35;
+  font-style: italic;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.descricao {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--bg-light);
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+
+/* Tabela Autoavaliação */
+.tabela-avaliacao {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tabela-avaliacao th {
+  background-color: var(--semana2-primary);
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 500;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tabela-avaliacao td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  background-color: white;
+}
+
+.tabela-avaliacao tr:nth-child(even) td {
+  background-color: var(--bg-light);
+}
+
+.tabela-avaliacao td:first-child {
+  font-weight: 500;
+  color: var(--semana2-accent);
+  border-right: 1px solid var(--border-color);
+}
+
+.tabela-avaliacao td:last-child {
+  text-align: center;
+  min-width: 100px;
+}
+
+/* Footer */
+footer {
+  background-color: #733822;
+  color: white;
+  text-align: center;
+  padding: 3rem 2rem;
+  margin-top: 4rem;
+}
+
+footer h4 {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: linear-gradient(to right,
+      var(--semana2-primary),
+      var(--semana2-secondary),
+      var(--semana2-accent),
+      var(--semana2-tertiary),
+      var(--semana2-quaternary));
+  margin: 3rem 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+
+  .hero {
+    padding: 1.5rem 0;
+    margin-top: 0;
+  }
+
+  .titulo, .eted {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  .sumario-table {
+    border-spacing: 0.5rem 0.25rem;
+  }
+
+  .sumario-table td {
+    padding: 0.75rem;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

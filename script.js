@@ -33,3 +33,4 @@ carousels.forEach((carousel) => {
     // Inicializar
     updateCarousel();
 });
+
