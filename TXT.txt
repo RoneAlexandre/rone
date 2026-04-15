@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEMANARIO 0</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-semana7.css">
+</head>
+
+<body>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <h1 class="titulo">SEMANA 0</h1>
+            <h1 class="eted">
+                <span>E</span><span>T</span><span>E</span><span>D</span>
+        </section>
+
+        <section class="sumario">
+            <h2>SUMÁRIO</h2>
+            <table class="sumario-table">
+                <tbody>
+                    <tr>
+                        <td><a href="#aula">1- AULA DA SEMANA</a></td>
+                        <td><a href="#relacionamentos">4- RELACIONAMENTOS</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#carater">2- CARÁTER DE DEUS</a></td>
+                        <td><a href="#meditacao">5- MEDITAÇÃO</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#missoes">3- MISSÕES</a></td>
+                        <td><a href="#autoavaliacao">6- AUTOAVALIAÇÃO</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- AULA DA SEMANA -->
+        <section id="aula" class="aula">
+            <h2>AULA DA SEMANA</h2>
+
+            <div class="card green">
+                <h3>RELACIONAMENTO & FAMÍLIA</h3>
+                <h4>GLEISSINHO E SÂMARA</h4>
+                <h5>A</h5>
+                <p>
+                   #
+                </p>
+
+                <p><em>#</em></p>
+
+                <h3>PATERNIDADE</h3>
+                <h4>MICHEL</h4>
+                <h5>#</h5>
+                <p>
+                   #
+                </p>
+
+                <p><em>#</em></p>                
+
+
+                <div class="carousel">
+                    <div class="carousel-images">
+                        <img class="carousel-item" src="" alt="">
+                    </div>
+                </div> 
+
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="carater" class="carater">
+            <h2>CARÁTER DE DEUS</h2>
+            <div class="card red">
+                <h3>CARÁTER E NATUREZA DE DEUS</h3>
+                <h4>#</h4>
+                <p>
+                    #
+                </p>
+                <p><em>#</em></p>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="missoes" class="missoes">
+            <h2>MISSÕES</h2>
+            <div class="card purple">
+                <h3>#</h3>
+                <p>
+                    #
+                </p>
+                <img src="" alt="">
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="relacionamentos" class="relacionamentos">
+            <h2>RELACIONAMENTOS</h2>
+            <div class="card teal">
+                <h3>#</h3>
+                <p>
+                    #
+                </p>
+
+                <em>#.</em>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="meditacao" class="meditacao">
+            <h2>MEDITAÇÃO</h2>
+            <div class="card green">
+                <h3>#</h3>
+                <p>
+                    #
+                </p>
+
+                <p>
+                    <em>#</em>
+                </p>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="autoavaliacao" class="autoavaliacao">
+            <h2>AUTOAVALIAÇÃO</h2>
+            <p class="sub">Minha reflexão pessoal sobre essa semana:</p>
+
+            <p class="descricao">
+                #
+            </p>
+
+
+            <div class="table-wrapper">
+                <table class="tabela-avaliacao">
+                    <thead>
+                        <tr>
+                            <th>Aspectos de Crescimento</th>
+                            <th>Pontuação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Prestatividade</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Gentileza</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Organização Pessoal</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Respeito ao Limite do Outro</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Generosidade</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Paciência</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Honestidade</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Amor</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h4>O ORDINÁRIO COMO LUGAR DE ENCONTRO COM DEUS</h4>
+        <p>ETED · JOCUM CCL</p>
+        <p>Desenvolvido por Rone Batista</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
