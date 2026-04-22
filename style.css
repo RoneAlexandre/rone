@@ -10,6 +10,16 @@
 
 *{box-sizing:border-box;margin:0;padding:0}
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 body{
   font-family:-apple-system, BlinkMacSystemFont, "Inter", sans-serif;
   background:var(--bg);
@@ -176,8 +186,8 @@ p{color:var(--muted);margin-bottom:12px}
 .carousel-item{width:100%;height:220px;object-fit:cover;border-radius:6px}
 @media(min-width:600px){.carousel-item{height:300px}}
 @media(min-width:900px){.carousel-item{height:420px}}
-.carousel button{position:absolute;top:50%;transform:translateY(-50%);background:transparent;border:none;color:#000;/* set arrow color to black */font-size:1.2rem;padding:6px;cursor:pointer;z-index:10;opacity:0.85}
-.carousel button:hover{opacity:1;color:#000}
+.carousel button{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.2);border:2px solid var(--text);color:var(--text);font-size:1.4rem;padding:8px 12px;cursor:pointer;z-index:10;opacity:0.7;border-radius:4px;transition:all 0.3s ease}
+.carousel button:hover{opacity:1;background:rgba(255,255,255,0.3);transform:translateY(-50%) scale(1.1)}
 .carousel .prev{left:8px}.carousel .next{right:8px}
 
 .table-wrapper{overflow:auto;margin-top:12px}
